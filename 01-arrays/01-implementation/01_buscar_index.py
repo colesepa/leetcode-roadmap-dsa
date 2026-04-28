@@ -12,7 +12,7 @@ def solution(nums: list[int], target: int) -> int:
 
 """
 
-Análise de complecidade:
+Análise de complexidade:
 
 
     *Tempo: 
