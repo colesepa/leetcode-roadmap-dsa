@@ -91,9 +91,9 @@ def my_solution (palindrome: str) -> bool:
             j -= 1
     return True
 ```
+def solution(text: str) -> bool:
 ## Solução sugerida
 ```python
-def solution(text: str) -> bool:
     i = 0
     j = len(text) - 1
 
@@ -124,4 +124,4 @@ apresentar falha, quando as strings passadas forem só acentos.
 
 A verificação de char alfa-numérico pode quebrar se não colocarmos limites
 nos ponteiros. Dessa forma, a verificação deve se limitar até o índece
-do ponteiro "j".
+do ponteiro "j".  
